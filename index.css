@@ -5,7 +5,7 @@
     flex-wrap: wrap;
 }
 section{
-    height: 88vh;
+    height: 100vh;
     background-color: rgb(14, 1, 17);
     padding-top: 70px;
 }
@@ -21,7 +21,7 @@ section{
 }
 .info{
     padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav{
     background-color: rgba(145, 79, 165, 0.24);
@@ -45,8 +45,8 @@ a{
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-right: 280px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 250px;
 }
 .content:hover{
     background-color: rgb(14, 1, 17);
@@ -54,7 +54,7 @@ a{
     border-radius: 17px;
 }
 footer{
-    background-color: rgb(44, 0, 85);
+    background-color: rgb(33, 2, 63);
     color: white;
 }
 .pic{
@@ -74,22 +74,25 @@ h2{
 }
 .text{
     color: rgb(255, 255, 255);
-    width: 590px;
-    margin-left: 350px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 18px;
+    padding-left: 270px;
+    padding-right: 270px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .register{
     display: flex;
     place-content: center;
-    margin-top: 10px;
-    gap: 15px;
+    margin-top: 30px;
+    gap: 25px;
 }
 .reg{
-    width: 80px;
-    height: 25px;
+    width: 90px;
+    height: 35px;
     background-color: rgb(44, 0, 85);
     border-radius: 20px;
-    padding-left: 25px;
-    padding-top: 5px;
+    padding-left: 37px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
